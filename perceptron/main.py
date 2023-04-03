@@ -17,7 +17,9 @@ def main():
 		[0, 1, 1]
 	])
 
-	outputs = np.array([[0, 1, 1, 0]]).T
+	outputs = np.array([
+    	[0, 1, 1, 0]
+    ]).T
 
 	np.random.seed(42)
 
